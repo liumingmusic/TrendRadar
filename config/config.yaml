@@ -26,7 +26,7 @@ crawler:
 # 推送模式选择
 report:
   mode: "daily" # 可选: "daily"|"incremental"|"current"
-  rank_threshold: 10 # 排名高亮阈值
+  rank_threshold: 5 # 排名高亮阈值
 
 notification:
   enable_notification: true # 是否启用通知功能，如果 false，则不发送手机通知
@@ -96,12 +96,8 @@ platforms:
     name: "今日头条"
   - id: "baidu"
     name: "百度热搜"
-  - id: "thepaper"
-    name: "澎湃新闻"
   - id: "ifeng"
     name: "凤凰网"
-  - id: "cankaoxiaoxi"
-    name: "参考消息"
   - id: "sputniknewscn"
     name: "卫星通讯社"
   - id: "zaobao"
@@ -128,8 +124,6 @@ platforms:
     name: "bilibili 热搜"
   - id: "zhihu"
     name: "知乎"
-  - id: "hupu"
-    name: "虎扑"
 
   # === 科技类平台 ===
   - id: "ithome"
@@ -140,18 +134,6 @@ platforms:
     name: "GitHub"
   - id: "hackernews"
     name: "Hacker News"
-  - id: "solidot"
-    name: "Solidot"
-  - id: "v2ex"
-    name: "V2EX"
-  - id: "nowcoder"
-    name: "牛客网"
-  - id: "pcbeta"
-    name: "远景论坛"
-  - id: "sspai"
-    name: "少数派"
-  - id: "producthunt"
-    name: "ProductHunt"
 
   # === 其他/工具类 ===
   - id: "chongbuluo"
